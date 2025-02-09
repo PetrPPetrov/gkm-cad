@@ -12,7 +12,7 @@ We use C++ 17.
 ## Formatting
 * Spaces should be used in source and header files. Tabs symbols are prohibited.
 * Tab size should be equal to 4 space symbols.
-* Local scopes (```{``` and ```}``` keywords) should be used as defined in K&R style code convention.
+* Local scopes (```{``` and ```}``` keywords) should be used as defined in K&R identation style.
 * Don't use space symbols at the end of lines.
 * Empty lines should not contain space symbols.
 * Each source or header file should contain one empty line at the end of file.

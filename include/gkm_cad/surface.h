@@ -2,3 +2,8 @@
 // License: https://github.com/PetrPPetrov/gkm-local/blob/main/LICENSE
 
 #pragma once
+
+namespace GkmCad {
+    struct Surface {
+    };
+}
