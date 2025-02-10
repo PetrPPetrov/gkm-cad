@@ -1,4 +1,4 @@
-# GKM-CAD code style convention
+# GKM-CAD code style
 
 ## Language standard
 We use C++ 17.
@@ -12,7 +12,7 @@ We use C++ 17.
 ## Formatting
 * Spaces should be used in source and header files. Tabs symbols are prohibited.
 * Tab size should be equal to 4 space symbols.
-* Local scopes (```{``` and ```}``` keywords) should be used as defined in K&R identation style.
+* Scopes (```{``` and ```}``` keywords) should be used as defined in K&R identation style.
 * Don't use space symbols at the end of lines.
 * Empty lines should not contain space symbols.
 * Each source or header file should contain one empty line at the end of file.
@@ -27,7 +27,7 @@ We use C++ 17.
 ## Conventions of file inclusions
 The file inclusions should be organized in fhe following order:
 * Include system headers, like ```#include <vector>```
-* Include GKM-CAD specific libraries, like ```#include "protocol.h"```
+* Include 3rd-party specific libraries, like ```#include <protocol.h>```
 * Include all other local headers.
 
 ## Naming convention
