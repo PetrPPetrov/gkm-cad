@@ -3,9 +3,7 @@
 
 #pragma once
 
-#include <gkm_cad/vec4d.h>
-
 namespace GkmCad {
-    struct Vertex {
+    struct Edge3D {
     };
 }
